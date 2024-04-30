@@ -78,20 +78,31 @@ export default function HistoryPage() {
           </p>
           <p className="mt-2">
             Según la creencia egipcia, el espíritu humano estaba formado por
-            varios elementos clave, entre los que se destacaban el "ib", el
-            "ka", el "ba", el "aj", el "ren" y el "sheut". Además de estos
-            aspectos, se consideraba al cuerpo físico, conocido como "ja" o
-            "jat", como parte integral del ser humano.
+            varios elementos clave, entre los que se destacaban el{" "}
+            <span className="italic">ib</span>, el
+            <span className="italic">ka</span>, el{" "}
+            <span className="italic">ba</span>, el{" "}
+            <span className="italic">aj</span>, el{" "}
+            <span className="italic">ren</span> y el{" "}
+            <span className="italic">sheut</span>. Además de estos aspectos, se
+            consideraba al cuerpo físico, conocido como{" "}
+            <span className="italic">ja</span> o{" "}
+            <span className="italic">jat</span>, como parte integral del ser
+            humano.
           </p>
           <p className="mt-2">
-            A nosotros nos interesa la esencia del ka y el ba. El ka se podría
-            concebir como la fuerza vital, lo que nos mantiene vivos y al morir
-            es lo que se conoce como “el último aliento”. El ba es lo más
+            A nosotros nos interesa la esencia del{" "}
+            <span className="italic">ka</span> y el{" "}
+            <span className="italic">ba</span>. El{" "}
+            <span className="italic">ka</span> se podría concebir como la fuerza
+            vital, lo que nos mantiene vivos y al morir es lo que se conoce como
+            “el último aliento”. El <span className="italic">ba</span> es lo más
             cercano al concepto occidental del alma, cuando el hombre muere,
-            esta debe permanecer en él. Sin embargo, el ba, tras la muerte, se
-            desvincula del cuerpo físico, por lo que se quedará sobrevolando
-            alrededor, hasta que finalmente pueda encontrarlo y obtener así la
-            vida eterna en el más allá.
+            esta debe permanecer en él. Sin embargo, el{" "}
+            <span className="italic">ba</span>, tras la muerte, se desvincula
+            del cuerpo físico, por lo que se quedará sobrevolando alrededor,
+            hasta que finalmente pueda encontrarlo y obtener así la vida eterna
+            en el más allá.
           </p>
           <p className="mt-2">
             La unión de estos dos elementos es necesaria para este proceso. No
