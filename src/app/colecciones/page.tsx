@@ -36,6 +36,7 @@ export default function ColectionsPage() {
         Nuestras obras
       </h1>
       <div className="flex flex-wrap justify-center">
+        <h2 className="text-xl font-bold text-center w-full mt-4">Estatuas</h2>
         <ColectionElement
           title="Estatuilla de mujer desnuda, c. 4.000 al 3.500 a.C, Nejen"
           imagePath="img/museum-images/Picture1.jpg"
@@ -56,6 +57,7 @@ export default function ColectionsPage() {
           imagePath="img/museum-images/Picture4.jpg"
           description="Grupo escultórico de una pareja, que nos permite apreciar las diferencias en los cánones estéticos de la época. Rahotep aparece semidesnudo, tiene piel oscura, su cabeza está rapada y tiene bigote. Nefret viste un largo vestido blanco, su piel es pálida y su cabeza probablemente también estaría rapada, debido a las plagas de piojos, pero lleva una peluca adornada con una diadema. Se cree que Rahotep era un príncipe o sacerdote."
         />
+        <h2 className="text-xl font-bold text-center w-full mt-4">Bajorrelieve</h2>
         <ColectionElement
           title="El enano Seneb y su Familia, c. 2.520 a. C, Guiza"
           imagePath="img/museum-images/Picture5.jpg"
@@ -71,6 +73,7 @@ export default function ColectionsPage() {
           imagePath="img/museum-images/Picture7.jpg"
           description="Representa la escena de la “mesa de las ofrendas”, una mesa llena de alimentos para alimentar al ka y revivificarlo, pues estos alimentos cobrarán vida en el más allá."
         />
+        <h2 className="text-xl font-bold text-center w-full mt-4">Papiros</h2>
         <ColectionElement
           title="Papiro de Hunefer, c. 1.310 al 1.275 a.C"
           imagePath="img/museum-images/Picture8.jpg"
@@ -86,6 +89,7 @@ export default function ColectionsPage() {
           imagePath="img/museum-images/Picture10.jpg"
           description="Se trata de un papiro compuesto por doce viñetas de carácter erótico, con diferentes escenas sexuales e inscripciones jocosas e indecentes."
         />
+        <h2 className="text-xl font-bold text-center w-full mt-4">Joyas</h2>
         <ColectionElement
           title="Pectoral de la Princesa Sithathoryunet, c. 1.880 a.C., Deir el-Bahari"
           imagePath="img/museum-images/Picture11.jpg"

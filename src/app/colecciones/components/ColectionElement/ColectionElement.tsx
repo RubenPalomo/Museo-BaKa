@@ -7,7 +7,7 @@ export default function ColectionElement({
   description,
 }: ColectionElementProps) {
   return (
-    <div className="flex flex-col md:flex-row items-center xl:w-[40vw] mt-5 z-10">
+    <div className="flex flex-col md:flex-row items-center xl:w-[40vw] my-2 z-10">
       <picture>
         <img
           src={imagePath}
