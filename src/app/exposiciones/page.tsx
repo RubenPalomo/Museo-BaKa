@@ -31,8 +31,9 @@ export default function ExhibitionPage() {
       <Header currentPage="Exposiciones" />
       <Wallpaper />
       <h1 className="text-2xl font-bold mx-auto my-5 w-[80vw]">
-        Plano del museo
+        Exposición permanente
       </h1>
+      <h2 className="text-xl mx-auto my-5 pl-4 w-[80vw]">Plano del museo</h2>
       <div className="flex flex-wrap w-full justify-center">
         <picture className="flex justify-center w-full md:w-96 z-10">
           <img

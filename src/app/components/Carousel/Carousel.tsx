@@ -16,13 +16,13 @@ export default function Carousel() {
   }, [images.length]);
 
   return (
-    <picture className="absolute w-full h-[85vh] opacity-40">
+    <picture className="relative w-96 h-96">
       {images.map((image, idx) => (
         <img
           key={idx}
           src={image}
           alt={`Picture ${idx + 1}`}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
+          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 rounded-xl ${
             idx === index ? "opacity-100" : "opacity-0"
           }`}
         />

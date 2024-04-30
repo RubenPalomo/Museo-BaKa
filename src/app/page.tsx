@@ -32,9 +32,10 @@ export default function Home() {
       onTouchEnd={handleTouchEnd}
     >
       <Header currentPage="/" />
-      <div className="flex flex-col justify-center items-center w-full h-screen">
+      <div className="flex flex-wrap justify-center items-center w-full h-screen">
+        <Wallpaper />
         <Carousel />
-        <div className="flex flex-col items-center mx-4 xl:mx-20">
+        <div className="flex flex-col items-center mt-10 mx-4 xl:mx-20 md:w-1/2">
           <h1 className="font-bold text-2xl sm:text-4xl text-center">
             Nuestra historia
           </h1>
@@ -46,14 +47,14 @@ export default function Home() {
             trajera el antiguo Egipto al siglo XXI, fusionando el legado
             histórico con la creatividad contemporánea.
           </p>
-        </div>
-        <div className="flex mt-4">
-          <Link
-            href="/historia"
-            className="bg-blue-200 p-4 px-8 rounded-3xl transition-transform transform-gpu hover:scale-110"
-          >
-            <p className="font-bold text-2xl">Leer más</p>
-          </Link>
+          <div className="flex mt-4">
+            <Link
+              href="/historia"
+              className="bg-blue-200 p-4 px-8 rounded-3xl transition-transform transform-gpu hover:scale-110"
+            >
+              <p className="font-bold text-2xl">Leer más</p>
+            </Link>
+          </div>
         </div>
       </div>
     </main>
